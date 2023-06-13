@@ -22,10 +22,12 @@ public class Member {
 	
 	private List<Member> memberList = new ArrayList<>();
 	
+	// 기본 생성자
 	public Member() {
 		super();
 	}
-
+	
+	// 매개변수 생성자
 	public Member(String id, String password, String name, String email, String phonenumber, String address,
 			int points, String manager) {
 		super();

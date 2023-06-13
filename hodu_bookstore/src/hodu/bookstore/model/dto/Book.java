@@ -14,12 +14,12 @@ public class Book {
 	
 	private List<Book> bookList = new ArrayList<>();
 	
-	
+	// 기본 생성자
 	public Book() {
 		super();
 	}
 
-
+	// 매개변수 생성자
 	public Book(int booknumber, String bookname, String author, int price) {
 		super();
 		this.booknumber = booknumber;

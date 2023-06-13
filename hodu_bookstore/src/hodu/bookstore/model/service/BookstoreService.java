@@ -164,7 +164,7 @@ public class BookstoreService {
 		return bookList;
 	}
 
-	// 관리자 사용자 수정
+	// 관리자 사용자 조회
 	public static Member findById(String id) {
 		Connection conn = getConnection();
 		Member member = BookstoreDao.findById(conn, id);
